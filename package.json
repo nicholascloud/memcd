@@ -1,11 +1,11 @@
 {
   "name": "mcd",
   "version": "1.0.0",
-  "description": "",
+  "description": "A tiny memcached command runner",
   "main": "index.js",
   "bin": {"memcd": "./index.js"},
-  "author": "",
-  "license": "",
+  "author": "Nicholas Cloud <nicholas.cloud@gmail.com>",
+  "license": "MIT",
   "dependencies": {
     "memjs": "^0.8.6"
   }
