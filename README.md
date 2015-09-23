@@ -1,5 +1,7 @@
 # A tiny memcached command runner
 
+## Usage
+
 ```
 Usage: memcd [--host=(user:pass@)host:port,...] command ...args
 Examples:
@@ -16,7 +18,27 @@ Available commands:
   help, stats, flush, get, set, add, replace, delete, increment, decrement
 ```
 
+## Installation
+
+This utility should be installed globally:
+
+```
+$ npm install -g memcd
+$ memcd help
+```
+
+Alternatively, install and run relative to your project:
+
+```
+$ npm install memcd
+$ ./node_modules/.bin/memcd help
+```
+
+## Notes
+
 This library uses the [memjs](http://amitlevy.com/projects/memjs/) client.
+
+## License
 
 ----
 

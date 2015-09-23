@@ -1,6 +1,6 @@
 {
   "name": "mcd",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A tiny memcached command runner",
   "main": "index.js",
   "bin": {"memcd": "./index.js"},
