@@ -1,0 +1,12 @@
+{
+  "name": "mcd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {"memcd": "./index.js"},
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "memjs": "^0.8.6"
+  }
+}
